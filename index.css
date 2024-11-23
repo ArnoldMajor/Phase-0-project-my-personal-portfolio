@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --ff-instrument-sans: "Instrument Sans";
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --clr-dark-gray: #1F2124;
+    --clr-gray: #27292C;
+    --clr-light-orange: #F89B20;
+    --clr-dark-orange: #F3661C;
+    --clr-white: #FFFFFF;
+}
+
+body {
+    font-family: var(--ff-instrument-sans), "Helvetica";
+}
+
+#nav-bar {
+    background-color: var(--clr-dark-gray);
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    padding: 40px 150px;
+    width: 100vw;
+    position: fixed;
+    align-items: center;
+}
+
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 63px;
+    justify-content: flex-end;
+}
+
+#nav-links a {
+    font-weight: var(--fw-semibold);
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--clr-white);
+}
+
+#nav-links a:hover {
+    color: var(--clr-dark-orange);
+    cursor: pointer;
+}
+
+
+#nav-logo {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#nav-logo a {
+    text-decoration: none;
+    color: var(--clr-white);
+    font-weight: var(--fw-bold);
+}
+
+#nav-logo span {
+    color: var(--clr-light-orange);
+}
+
+.section {
+    background-color: var(--clr-gray);
+    height: 100vh;
+    width: 100vw;
+    padding: 250px 150px;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-image {
+    height: 600px;
+}
+
+#hero-text {
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr;
+    align-items: center;
+}
+
+#hero-image,
+#hero-text {
+    margin-top: 100px;
+}
+
+#hero-text h1 {
+    font-size: 6.25rem;
+    color: var(--clr-white);
+    line-height: 5.75rem;
+    margin-bottom: 15px;
+}
+
+#hero-text span {
+    color: var(--clr-light-orange);
+}
+
+#hero-text p {
+    font-size: 1.5rem;
+    color: var(--clr-white);
+    font-weight: var(--fw-regular);
+    padding-right: 150px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+
+.buttons button {
+    padding: 20px 90px;
+    font-size: 1.5rem;
+    font-weight: var(--fw-semibold);
+    width: 400px;
+    color: var(--clr-white);
+    border-radius: 20px;
+    border: solid 4px var(--clr-light-orange);
+    background-color: transparent;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    background-color: var(--clr-light-orange);
+    border-color: var(--clr-light-orange);
+    font-weight: var(--fw-bold);
+}
+
+#primarybutton {
+    color: var(--clr-light-orange);
+}
