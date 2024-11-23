@@ -24,20 +24,22 @@ This is a personal portfolio website showcasing my skills, projects, and service
 
 ## **Setup Instructions**  
 
-### **Clone the Repository**  
+### **1. Fork the Repository**
+
+### **2. Clone the Repository**  
 1. Open your terminal and run:  
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/yourusername/Phase-0-project-my-personal-portfolio
    ```  
 2. Navigate into the project directory:  
    ```bash
-   cd portfolio
+   cd Phase-0-project-my-personal-portfolio
    ```  
 
-### **Open Locally**  
+### **3. Open Locally**  
 1. Open the `index.html` file in any modern web browser to view the website.  
 
-### **Optional**  
+### **4. Optional**  
 If you want to modify the project:  
 1. Use a code editor like [VS Code](https://code.visualstudio.com/).  
 2. Make your changes in the HTML, CSS, or JavaScript files.  
@@ -45,15 +47,14 @@ If you want to modify the project:
 ---
 
 ## **Known Issues**  
-- The contact form is currently static and does not send emails. Future updates will include integrating an email service (e.g., EmailJS or a backend server).  
-- Performance could be improved for larger project image files by implementing lazy loading.  
+- The contact form is currently static and does not send emails. Future updates will include integrating an email service.  
 
 ---
 
 ## **Future Improvements**  
 - Add a blog section to share development insights.  
 - Include more interactive animations using JavaScript.  
-- Implement a dark mode for better accessibility.  
+- Implement a light mode as an option for visitors.  
 - Optimize for faster loading times.  
 
 ---
@@ -71,6 +72,6 @@ This project is licensed under the MIT License.
 
 ## **Contact**  
 **Arnold**  
-- **Email**: arnold@example.com  
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)  
-- **LinkedIn**: [linkedin.com/in/arnold](https://linkedin.com/in/arnold)
+- **Email**: arnoldmwangakala@gmail.com  
+- **GitHub**: [github.com/yourusername](https://github.com/ArnoldMajor)  
+- **LinkedIn**: [linkedin.com/in/arnold](https://linkedin.com/in/arnoldmwangakala)
