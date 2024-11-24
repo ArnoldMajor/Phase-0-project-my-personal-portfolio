@@ -392,6 +392,7 @@ input {
 .input-bottom-row {
     display: grid;
     grid-template-columns: 9fr 1fr;
+    margin-bottom: 50px;
 }
 
 .social-icon {
