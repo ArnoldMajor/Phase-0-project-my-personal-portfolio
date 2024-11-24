@@ -37,10 +37,13 @@ body {
     justify-content: flex-end;
 }
 
+a {
+    text-decoration: none;
+}
+
 #nav-links a {
     font-weight: var(--fw-semibold);
     font-size: 1rem;
-    text-decoration: none;
     color: var(--clr-white);
 }
 
@@ -394,4 +397,15 @@ input {
 
 .social-icon:hover {
     cursor: pointer;
+}
+
+footer {
+    background-color: var(--clr-dark-gray);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--clr-white);
+    font-size: 1rem;
+    font-weight: var(--fw-medium);
 }
