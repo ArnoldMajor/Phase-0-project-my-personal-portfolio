@@ -127,7 +127,26 @@ body {
     gap: 36px;
 }
 
-.buttons button {
+.primary-button {
+    padding: 20px 90px;
+    font-size: 1.5rem;
+    font-weight: var(--fw-semibold);
+    width: 400px;
+    color: var(--clr-white);
+    border-radius: 20px;
+    border: solid 4px var(--clr-light-orange);
+    background-color: var(--clr-light-orange);
+}
+
+.primary-button:hover {
+    cursor: pointer;
+    background-color: var(--clr-white);
+    color: var(--clr-light-orange);
+    border-color: var(--clr-light-orange);
+    font-weight: var(--fw-bold);
+}
+
+.secondary-button {
     padding: 20px 90px;
     font-size: 1.5rem;
     font-weight: var(--fw-semibold);
@@ -138,15 +157,10 @@ body {
     background-color: transparent;
 }
 
-.buttons button:hover {
+.secondary-button:hover {
     cursor: pointer;
-    background-color: var(--clr-light-orange);
-    border-color: var(--clr-light-orange);
+    border-color: var(--clr-white);
     font-weight: var(--fw-bold);
-}
-
-#primarybutton {
-    color: var(--clr-light-orange);
 }
 
 .section-area {
@@ -275,4 +289,35 @@ body {
 
 .skill-list ul li {
     line-height: 3rem;
+}
+
+#portfolio-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+}
+
+.portfolio-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-preview img {
+    width: 450px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.buttons.project {
+    gap: 16px;
+}
+
+.buttons.project button {
+    width: 200px;
+    font-size: 1rem;
+    font-weight: var(--fw-semibold);
+    padding: 10px 20px;
+    border-radius: 15px;
 }
