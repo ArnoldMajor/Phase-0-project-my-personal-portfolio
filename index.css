@@ -313,6 +313,10 @@ a {
     margin-bottom: 30px;
 }
 
+.project-preview:hover {
+    cursor: pointer;
+}
+
 .buttons.project {
     gap: 16px;
 }
