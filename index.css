@@ -45,7 +45,7 @@ body {
 }
 
 #nav-links a:hover {
-    color: var(--clr-dark-orange);
+    color: var(--clr-light-orange);
     cursor: pointer;
 }
 
@@ -76,7 +76,7 @@ body {
     background-color: var(--clr-gray);
     height: 100vh;
     width: 100vw;
-    padding: 175px 150px;
+    padding: 150px 150px;
 }
 
 #about-me {
@@ -226,4 +226,53 @@ body {
     font-size: 1.25rem;
     font-weight: var(--fw-semibold);
     color: var(--clr-white);
+}
+
+#skills-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.skill-set {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-title {
+    color: var(--clr-white);
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.skill-title h2 {
+    font-weight: var(--fw-regular);
+}
+
+.skill-list {
+    margin: 0;
+    border: solid 3px;
+    border-color: var(--clr-light-orange);
+    border-radius: 30px;
+    height: 400px;
+    width: 400px;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-list ul {
+    margin: 0;
+    color: var(--clr-white);
+    font-weight: var(--fw-bold);
+    font-size: 2rem;
+    display: table;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.skill-list ul li {
+    line-height: 3rem;
 }
