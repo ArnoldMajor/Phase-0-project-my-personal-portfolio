@@ -24,7 +24,7 @@ body {
     background-color: var(--clr-dark-gray);
     display: grid;
     grid-template-columns: 5fr 5fr;
-    padding: 40px 150px;
+    padding: 30px 150px;
     width: 100vw;
     position: fixed;
     align-items: center;
@@ -65,11 +65,18 @@ body {
     color: var(--clr-light-orange);
 }
 
-.section {
+.section-hero {
     background-color: var(--clr-gray);
     height: 100vh;
     width: 100vw;
     padding: 250px 150px;
+}
+
+.section {
+    background-color: var(--clr-gray);
+    height: 100vh;
+    width: 100vw;
+    padding: 175px 150px;
 }
 
 #about-me {
@@ -140,4 +147,83 @@ body {
 
 #primarybutton {
     color: var(--clr-light-orange);
+}
+
+.section-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    color: var(--clr-white);
+}
+
+.decor-line {
+    display: flex;
+}
+
+.decor-line hr {
+    border: solid 3px;
+    border-color: var(--clr-light-orange);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.content-area {
+    display: flex;
+}
+
+#services-area {
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.service-section {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 3fr 7fr;
+}
+
+.service-description {
+    background-color: var(--clr-light-orange);
+    padding: 50px 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#service-1 {
+    direction: rtl;
+}
+
+
+#service-3 {
+    direction: rtl;
+}
+
+#sd-left {
+    border-radius: 0px 30px 30px 0px;
+}
+
+#sd-right {
+    border-radius: 30px 0px 0px 30px;
+}
+
+.service-title {
+    font-size: 2rem;
+    color: var(--clr-white);
+}
+
+.service-description p {
+    direction: ltr;
+    font-size: 1.25rem;
+    font-weight: var(--fw-semibold);
+    color: var(--clr-white);
 }
