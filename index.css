@@ -183,7 +183,7 @@ a {
     display: grid;
     grid-template-columns: 3fr 0fr;
     align-items: flex-end;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .section-title h2 {
@@ -208,7 +208,7 @@ a {
 
 #services-area {
     flex-direction: column;
-    gap: 5rem;
+    gap: 50px;
 }
 
 .service-section {
@@ -235,17 +235,26 @@ a {
 
 #sd-left {
     border-radius: 0px 30px 30px 0px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 
 #sd-right {
     border-radius: 30px 0px 0px 30px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .service-title {
-    font-size: 1.5rem;
+    width: 100%;
+    font-size: 1rem;
     color: var(--clr-white);
+}
+
+.st-right {
+    margin-left: 150px;
+}
+
+.st-left {
+    margin-right: 150px;
 }
 
 .service-description p {
@@ -282,9 +291,9 @@ a {
     border: solid 3px;
     border-color: var(--clr-light-orange);
     border-radius: 30px;
-    height: 400px;
+    height: 300px;
     width: 350px;
-    padding: 30px 80px;
+    padding: 30px 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -331,6 +340,15 @@ a {
     gap: 8px;
 }
 
+.buttons.project button {
+    width: 170px;
+    font-size: 1rem;
+    font-weight: var(--fw-semibold);
+    padding: 5px 20px;
+    border: solid 2px var(--clr-light-orange);
+    border-radius: 10px;
+}
+
 #contact-title {
     width: 350px;
 }
@@ -346,16 +364,8 @@ a {
     padding-left: 50px;
 }
 
-.buttons.project button {
-    width: 170px;
-    font-size: 1rem;
-    font-weight: var(--fw-semibold);
-    padding: 5px 20px;
-    border: solid 2px var(--clr-light-orange);
-    border-radius: 10px;
-}
-
 .form-area {
+    margin-top: 25px;
     width: 100%;
     color: var(--clr-white);
     font-size: 2rem;
