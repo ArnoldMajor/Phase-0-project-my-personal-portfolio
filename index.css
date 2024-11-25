@@ -183,7 +183,7 @@ a {
     display: grid;
     grid-template-columns: 3fr 0fr;
     align-items: flex-end;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 
 .section-title h2 {
@@ -316,7 +316,7 @@ a {
 #portfolio-area {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .portfolio-project {
@@ -365,7 +365,7 @@ a {
 }
 
 .form-area {
-    margin-top: 25px;
+    /* margin-top: 25px; */
     width: 100%;
     color: var(--clr-white);
     font-size: 2rem;
