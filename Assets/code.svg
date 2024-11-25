@@ -4,9 +4,9 @@
 <svg
    version="1.1"
    id="svg1"
-   width="666.66669"
-   height="666.66669"
-   viewBox="0 0 666.66669 666.66669"
+   width="533.65009"
+   height="570.07129"
+   viewBox="0 0 533.65009 570.07129"
    sodipodi:docname="code.svg"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -761,28 +761,30 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:zoom="1.263"
-     inkscape:cx="333.33334"
-     inkscape:cy="333.33334"
+     inkscape:cx="258.90736"
+     inkscape:cy="282.66033"
      inkscape:window-width="1920"
      inkscape:window-height="1048"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="group-R5">
+     inkscape:current-layer="g1"
+     showgrid="false">
     <inkscape:page
        x="0"
        y="0"
        inkscape:label="1"
        id="page1"
-       width="666.66669"
-       height="666.66669"
-       margin="0"
+       width="533.65009"
+       height="570.07129"
+       margin="51.464767 59.382423 46.714172 76.009499"
        bleed="0" />
   </sodipodi:namedview>
   <g
      id="g1"
      inkscape:groupmode="layer"
-     inkscape:label="1">
+     inkscape:label="1"
+     transform="translate(-74.425969,-50.673002)">
     <g
        id="group-R5">
       <path
@@ -923,6 +925,12 @@
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
          transform="matrix(0.26666666,0,0,-0.26666666,-316.92308,1136.9367)"
          clip-path="url(#clipPath62)" />
+      <circle
+         id="path1"
+         style="fill:#000000;stroke:#000000"
+         cx="368.9628"
+         cy="92.636581"
+         r="0.3985981" />
     </g>
   </g>
 </svg>
